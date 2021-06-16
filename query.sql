@@ -1,0 +1,1 @@
+select count(*) as order_count,sum(tax_amount) as tax_total,avg(tax_amount) as tax_average from Orders;
